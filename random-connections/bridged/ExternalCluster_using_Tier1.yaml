@@ -2,7 +2,7 @@
 apiVersion: gateway.tsb.tetrate.io/v2
 kind: ExternalCluster
 metadata:
-  organization: tetrate
+  organization: partners
   tenant: dev
   name: SPG_Cluster1_Service1
   group: lob1-azure-platform-gg
@@ -25,7 +25,7 @@ spec:
 apiVersion: gateway.tsb.tetrate.io/v2
 kind: Tier1Gateway
 metadata:
-  organization: tetrate
+  organization: partners
   tenant: dev
   name: tier1httpbinspgw
   group: lob1-azure-platform-gg

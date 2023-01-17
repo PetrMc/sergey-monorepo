@@ -4,7 +4,7 @@ kind: Workspace
 metadata:
   displayName: lob1-azure-platform-ws
   name: lob1-azure-platform-ws
-  organization: tetrate
+  organization: partners
   tenant: dev
 spec:
   displayName: lob1-azure-platform-ws
@@ -18,7 +18,7 @@ kind: Group
 metadata:
   displayName: lob1-azure-platform-gg
   name: lob1-azure-platform-gg
-  organization: tetrate
+  organization: partners
   tenant: dev
   workspace: lob1-azure-platform-ws
 spec:
@@ -31,7 +31,7 @@ spec:
 apiVersion: gateway.tsb.tetrate.io/v2
 kind: Tier1Gateway
 metadata:
-  organization: tetrate
+  organization: partners
   tenant: dev
   name: tier1httpbinspgw
   group: lob1-azure-platform-gg
@@ -67,7 +67,7 @@ Cluster Definition:
 apiVersion: gateway.tsb.tetrate.io/v2
 kind: ExternalCluster
 metadata:
-  organization: tetrate
+  organization: partners
   tenant: dev
   name: SPG_Cluster1
   group: lob1-azure-platform-gg
@@ -86,7 +86,7 @@ spec:
 apiVersion: gateway.tsb.tetrate.io/v2
 kind: ExternalClusterService
 metadata:
-  organization: tetrate
+  organization: partners
   tenant: dev
   name: SPG_Cluster1_Service1
   group: lob1-azure-platform-gg
@@ -109,7 +109,7 @@ spec:
 apiVersion: gateway.tsb.tetrate.io/v2
 kind: Tier1Gateway
 metadata:
-  organization: tetrate
+  organization: partners
   tenant: dev
   name: tier1httpbinspgw
   group: lob1-azure-platform-gg

@@ -6,7 +6,7 @@ metadata:
   {{- include "chart.labels" . | nindent 4 }}
   annotations:
     tsb.tetrate.io/gatewayGroup: lob1-openshift-platform-gg
-    tsb.tetrate.io/organization: tetrate
+    tsb.tetrate.io/organization: partners
     tsb.tetrate.io/tenant: dev
     tsb.tetrate.io/workspace: lob1-openshift-platform-ws
 spec:

@@ -7,7 +7,7 @@ items:
     metadata:
       name: internal-api-httpbin-ws
       annotations:
-        tsb.tetrate.io/organization: tetrate
+        tsb.tetrate.io/organization: partners
         tsb.tetrate.io/tenant: dev
     spec:
       namespaceSelector:
@@ -18,7 +18,7 @@ items:
     metadata:
       name: internal-api-httpbin-gg
       annotations:
-        tsb.tetrate.io/organization: tetrate
+        tsb.tetrate.io/organization: partners
         tsb.tetrate.io/tenant: dev
         tsb.tetrate.io/workspace: internal-api-httpbin-ws
     spec:
@@ -40,7 +40,7 @@ items:
     metadata:
       name: internal-api-httpbin-igw
       annotations:
-        tsb.tetrate.io/organization: tetrate
+        tsb.tetrate.io/organization: partners
         tsb.tetrate.io/tenant: dev
         tsb.tetrate.io/workspace: internal-api-httpbin-ws
         tsb.tetrate.io/gatewayGroup: internal-api-httpbin-gg

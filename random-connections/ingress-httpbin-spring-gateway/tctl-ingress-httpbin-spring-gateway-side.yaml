@@ -4,7 +4,7 @@ kind: Workspace
 metadata:
   displayName: spring-gateway-ws
   name: spring-gateway-ws
-  organization: tetrate
+  organization: partners
   tenant: dev
 spec:
   displayName: spring-gateway-ws
@@ -18,7 +18,7 @@ kind: Group
 metadata:
   displayName: spring-gateway-gg
   name: spring-gateway-gg
-  organization: tetrate
+  organization: partners
   tenant: dev
   workspace: spring-gateway-ws
 spec:
@@ -31,7 +31,7 @@ spec:
 apiVersion: gateway.tsb.tetrate.io/v2
 kind: IngressGateway
 metadata:
-  organization: tetrate
+  organization: partners
   tenant: dev
   name: ingress-httpbin-spring-gateway
   group: spring-gateway-gg

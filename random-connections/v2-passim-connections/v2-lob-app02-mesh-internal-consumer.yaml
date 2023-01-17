@@ -7,7 +7,7 @@ items:
     metadata:
       name: trusted-consumer-ws
       annotations:
-        tsb.tetrate.io/organization: tetrate
+        tsb.tetrate.io/organization: partners
         tsb.tetrate.io/tenant: consumers
     spec:
       namespaceSelector:
@@ -18,7 +18,7 @@ items:
     metadata:
       name: untrusted-consumer-ws
       annotations:
-        tsb.tetrate.io/organization: tetrate
+        tsb.tetrate.io/organization: partners
         tsb.tetrate.io/tenant: consumers
     spec:
       namespaceSelector:

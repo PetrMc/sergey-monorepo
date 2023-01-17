@@ -7,7 +7,7 @@ items:
     metadata:
       name: lob-app01-provider-ws
       annotations:
-        tsb.tetrate.io/organization: tetrate
+        tsb.tetrate.io/organization: partners
         tsb.tetrate.io/tenant: dev
     spec:
       displayName: lob-app01-provider-ws
@@ -20,7 +20,7 @@ items:
     metadata:
       name: lob-app01-provider-ig
       annotations:
-        tsb.tetrate.io/organization: tetrate
+        tsb.tetrate.io/organization: partners
         tsb.tetrate.io/tenant: dev
         tsb.tetrate.io/workspace: lob-app01-provider-ws
     spec:
@@ -33,7 +33,7 @@ items:
     metadata:
       name: lob-app01-provider-tg
       annotations:
-        tsb.tetrate.io/organization: tetrate
+        tsb.tetrate.io/organization: partners
         tsb.tetrate.io/tenant: dev
         tsb.tetrate.io/workspace: lob-app01-provider-ws
     spec:
@@ -47,7 +47,7 @@ items:
     metadata:
       name: lob-app01-provider-gg
       annotations:
-        tsb.tetrate.io/organization: tetrate
+        tsb.tetrate.io/organization: partners
         tsb.tetrate.io/tenant: dev
         tsb.tetrate.io/workspace: lob-app01-provider-ws
     spec:
@@ -70,7 +70,7 @@ items:
     metadata:
       name: lob-app01-gateway
       annotations:
-        tsb.tetrate.io/organization: tetrate
+        tsb.tetrate.io/organization: partners
         tsb.tetrate.io/tenant: dev
         tsb.tetrate.io/gatewayGroup: lob-app01-provider-gg
         tsb.tetrate.io/workspace: lob-app01-provider-ws
@@ -91,7 +91,7 @@ items:
     metadata:
       name: lob-app01-dr
       annotations:
-        tsb.tetrate.io/organization: tetrate
+        tsb.tetrate.io/organization: partners
         tsb.tetrate.io/tenant: dev
         tsb.tetrate.io/workspace: lob-app01-provider-ws
         tsb.tetrate.io/trafficGroup: lob-app01-provider-tg
@@ -117,7 +117,7 @@ items:
     metadata:
       name: lob-app01-serviceentry
       annotations:
-        tsb.tetrate.io/organization: tetrate
+        tsb.tetrate.io/organization: partners
         tsb.tetrate.io/tenant: dev
         tsb.tetrate.io/istioInternalGroup: lob-app01-provider-ig
         tsb.tetrate.io/workspace: lob-app01-provider-ws
@@ -145,7 +145,7 @@ items:
     metadata:
       name: lob-app01-virtualservice
       annotations:
-        tsb.tetrate.io/organization: tetrate
+        tsb.tetrate.io/organization: partners
         tsb.tetrate.io/tenant: dev
         tsb.tetrate.io/gatewayGroup: lob-app01-provider-gg
         tsb.tetrate.io/workspace: lob-app01-provider-ws

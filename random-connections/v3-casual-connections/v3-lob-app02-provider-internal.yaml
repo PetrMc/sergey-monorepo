@@ -7,7 +7,7 @@ items:
     metadata:
       name: lob-app02-provider-ws
       annotations:
-        tsb.tetrate.io/organization: tetrate
+        tsb.tetrate.io/organization: partners
         tsb.tetrate.io/tenant: dev
     spec:
       displayName: lob-app02-provider-ws
@@ -20,7 +20,7 @@ items:
     metadata:
       name: lob-app02-provider-gg
       annotations:
-        tsb.tetrate.io/organization: tetrate
+        tsb.tetrate.io/organization: partners
         tsb.tetrate.io/tenant: dev
         tsb.tetrate.io/workspace: lob-app02-provider-ws
     spec:
@@ -43,7 +43,7 @@ items:
     metadata:
       name: lob-app02-int-t1
       annotations:
-        tsb.tetrate.io/organization: tetrate
+        tsb.tetrate.io/organization: partners
         tsb.tetrate.io/tenant: dev
         tsb.tetrate.io/gatewayGroup: lob-app02-provider-gg
         tsb.tetrate.io/workspace: lob-app02-provider-ws
